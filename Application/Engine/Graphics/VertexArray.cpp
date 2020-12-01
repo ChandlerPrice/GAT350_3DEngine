@@ -3,7 +3,7 @@
 
 bool nc::VertexArray::Create(const std::string& name, void* null)
 {
-	glGenVertexArrays(m_vao, &m_vao);
+	glGenVertexArrays(1, &m_vao);
 	Bind();
 
 	return true;
@@ -11,7 +11,7 @@ bool nc::VertexArray::Create(const std::string& name, void* null)
 
 void nc::VertexArray::Destroy()
 {
-	glDeleteVertexArrays(m_vao, &m_vao);
+	glDeleteVertexArrays(1, &m_vao);
 	glDeleteBuffers(m_vbos.size(), m_vbos.data());
 }
 
