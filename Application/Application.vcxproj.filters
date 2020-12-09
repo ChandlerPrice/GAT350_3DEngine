@@ -37,6 +37,9 @@
     <Filter Include="Resource Files\Textures">
       <UniqueIdentifier>{0a402365-7aa9-4a03-9fdc-c0a18503071a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Engine\Objects">
+      <UniqueIdentifier>{0c527f43-49de-4d4e-b824-0023f614064c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -80,6 +83,30 @@
     </ClCompile>
     <ClCompile Include="Engine\Graphics\VertexIndexArray.cpp">
       <Filter>Source Files\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Model.cpp">
+      <Filter>Source Files\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Material.cpp">
+      <Filter>Source Files\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Objects\Object.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Objects\Scene.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Objects\InputSystem.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Objects\Camera.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Objects\Light.cpp">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math\Transform.cpp">
+      <Filter>Source Files\Engine\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -134,6 +161,30 @@
     <ClInclude Include="Engine\Graphics\VertexIndexArray.h">
       <Filter>Source Files\Engine\Graphics</Filter>
     </ClInclude>
+    <ClInclude Include="Engine\Graphics\Model.h">
+      <Filter>Source Files\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Material.h">
+      <Filter>Source Files\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Objects\Object.h">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Objects\Scene.h">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Objects\Camera.h">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Objects\InputSystem.h">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Objects\Light.h">
+      <Filter>Source Files\Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Objects\Transform.h">
+      <Filter>Source Files\Engine\Math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Build\Shaders\basic.vert">
@@ -148,6 +199,12 @@
     <None Include="..\Build\Shaders\gouraud.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include="..\Build\Shaders\phong.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Build\Shaders\phong.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Build\Textures\llama.jpg">
@@ -157,6 +214,12 @@
       <Filter>Resource Files\Textures</Filter>
     </Image>
     <Image Include="..\Build\Textures\wall.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Build\Textures\ogre_diffuse_flip.bmp">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\Build\Textures\ogre_diffuse.bmp">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>

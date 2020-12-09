@@ -4,7 +4,7 @@
 bool nc::VertexArray::Create(const std::string& name, void* null)
 {
 	glGenVertexArrays(1, &m_vao);
-	Bind();
+	glBindVertexArray(m_vao);
 
 	return true;
 }
